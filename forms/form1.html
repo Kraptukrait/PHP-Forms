@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="../css/newstyles.css">
+    <title>PHP Form 1</title>
+    <meta charset="UTF-8">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Report an Issue</h1>
+        <br>
+        <form action="evaluation1.php" method="post" accept-charset="UTF-8">
+            <p>
+                Your Name: <input type="text" name="name"> Your Email: <input type="text" name="email"><br><br> Department:
+                <select name="department">
+                    <option> Call Center</option>
+                    <option> Reception</option>
+                    <option> Public Relations</option>
+                    <option> Human Resources</option>
+                    <option>Accounting</option>
+                    <option>Invoice Processing</option>
+                    <option>Event Management</option>
+                </select><br> Location:
+                <select name="location">
+                    <option> Administration Building</option>
+                    <option> Main Building</option>
+                    <option> Annex Building</option>
+                </select> Floor:
+                <select name="floor">
+                    <option> 1</option>
+                    <option> 2</option>
+                    <option> 3</option>
+                    <option> 4</option>
+                    <option> 5</option>
+                </select> Room: <input type="text" name="room"> <br><br> Your Concern:
+                <br>
+                <input type="checkbox" name="issue1" value="PC not working"> PC not working
+                <input type="checkbox" name="issue2" value="No Internet connection"> No Internet connection<br>
+                <input type="checkbox" name="issue3" value="USB port defective"> USB port defective
+                <input type="checkbox" name="issue4" value="Monitor defective"> Monitor defective<br>
+                <input type="checkbox" name="issue5" value="Keyboard or mouse broken"> Keyboard or mouse broken
+                <input type="checkbox" name="issue6" value="Connection broken"> Connection broken<br>
+                <br><input type="submit" value="Send">
+                <input type="reset"></p>
+            </p>
+        </form>
+    </div>
+</body>
+
+</html>
