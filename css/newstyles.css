@@ -1,0 +1,82 @@
+/* Set the font to a modern sans-serif */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9; /* Light background for a clean look */
+    color: #333; /* Dark text for contrast */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+/* Main container styling */
+.container {
+    max-width: 700px;
+    width: 90%;
+    background: #ffffff; /* Bright white background */
+    padding: 30px;
+    border-radius: 15px; /* Rounded corners for a softer look */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15); /* Subtle shadow */
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* Hover effect for the container */
+.container:hover {
+    transform: scale(1.02); /* Slight scaling on hover */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+}
+
+/* Heading style */
+h1 {
+    color: #0056b3; /* Vibrant blue for the main heading */
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px; /* Slight letter spacing for elegance */
+}
+
+/* Subtitle styling */
+h5 {
+    color: #ff5722; /* Warm orange for the subtitle */
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+
+/* Paragraph styling */
+p {
+    color: #666; /* Soft gray for readability */
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    text-align: left; /* Align text to the left */
+}
+
+/* Background gradient for the body */
+body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(120deg, #a8edea, #fed6e3);
+    z-index: -1;
+}
+
+/* Links styling */
+a {
+    color: #0056b3; /* Use the same blue as the heading */
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.2s ease;
+}
+
+a:hover {
+    color: #ff5722; /* Match the subtitle on hover */
+    text-decoration: underline;
+}
