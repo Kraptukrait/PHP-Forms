@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="../css/newstyles.css">
+    <title>PHP Form 3</title>
+    <meta charset="UTF-8">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Driver's License Exam Registration</h1>
+        <br>
+        <form action="evaluation3.php" method="post" accept-charset="UTF-8">
+            <p>
+                Driving School:
+                <select name="DrivingSchool">
+                    <option>EasyDrive Driving School</option>
+                    <option>DriveWell Driving School</option>
+                    <option>RoadMaster Driving School</option>
+                    <option>SmartDrive Driving School</option>
+                    <option>DriveSafe Driving School</option>
+                    <option>ProWay Driving School</option>
+                    <option>AceDrive Driving School</option>
+                    <option>StreetWise Driving School</option>
+                    <option>GoPro Driving School</option>
+                    <option>DriveRight Driving School</option>
+                    <option>DriveSense Driving School</option>
+                    <option>SkillWheel Driving School</option>
+                    <option>GearUp Driving School</option>
+                </select> <br>City: <input type="text" name="City"> <br>Student Number:
+                <input type="text" name="StudentNumber">Name: <input type="text" name="Name"><br> Registration for:
+                <select name="Type">
+                    <option>Theory</option>
+                    <option>Practical</option>
+                </select><br> Exam Date:
+                <input type="date" id="date" name="date">
+                <input type="time" id="time" name="time"><br>
+                <br><input type="submit" value="Submit">
+                <input type="reset">
+            </p>
+        </form>
+    </div>
+</body>
+
+</html>
